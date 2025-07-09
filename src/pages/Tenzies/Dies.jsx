@@ -18,6 +18,6 @@ const Dies = ({ dice, toggleHold, win }) => {
             ))}
         </div>
     )
-}
+}   
 
 export default Dies
