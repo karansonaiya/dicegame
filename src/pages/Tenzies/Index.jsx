@@ -94,7 +94,7 @@ useEffect(() => {
       <div className="border bg-white p-8 rounded-lg shadow-lg w-11/12 max-w-md">
       <Head />
       <Timing time={time} timerRunning={timerRunning} bestTime={bestTime} rolls={rolls} formatTime={formatTime}/>
-      <Dies dice={dice} toggleHold={toggleHold}/>
+      <Dies dice={dice} toggleHold={toggleHold} win={win}/>
       <RollBtn handleRoll={handleRoll} win={win}/>
       </div>
       {win && <ReactConfetti />}
